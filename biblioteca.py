@@ -94,41 +94,18 @@ def consultar_disponiveis_emprestados():
 
 
 # 2: Criação do menu em laço de repetição
-#def menu():
-#    while True:
-#        print("=== Sistema de Biblioteca ===")
-#        print("1. Adicionar livros à biblioteca.")
-#        print("2. Remover livros da biblioteca.")
-#        print("3. Listar todos os livros disponíveis.")
-#        print("4. Registrar usuários.")
-#        print("5. Registrar empréstimos de livros.")
-#        print("6. Consultar livros emprestados e disponíveis.")
-#        print("0. Sair")
-#        escolha = input("Escolha uma opção: ")
+def menu():
+    while True:
+        print("=== Sistema de Biblioteca ===")
+        print("1. Adicionar livros à biblioteca.")
+        print("2. Remover livros da biblioteca.")
+        print("3. Listar todos os livros disponíveis.")
+        print("4. Registrar usuários.")
+        print("5. Registrar empréstimos de livros.")
+        print("6. Consultar livros emprestados e disponíveis.")
+        print("0. Sair")
+        escolha = input("Escolha uma opção: ")
 
-<<<<<<< HEAD
-#        if escolha == '1':
-#            adicionar_livro()
-#        elif escolha == '2':
-#            remover_livro()
-#        elif escolha == '3':
-#            listar_todos_livros()
-#        elif escolha == '4':
-#            registrar_usuario()
-#        elif escolha == '5':
-#            registrar_emprestimo()
-#        elif escolha == '6':
-#            consultar_disponiveis_emprestados()
-#        elif escolha == '0':
-#            print("Saindo do sistema...")
-#            break
-#        else:
-#            print("Opção inválida. Tente novamente.\n")
-
-# 3: Função para iniciar sistema da biblioteca
-#if __name__ == '__main__':
-    menu()
-=======
         if escolha == '1':
             adicionar_livro()
         elif escolha == '2':
@@ -142,10 +119,10 @@ def consultar_disponiveis_emprestados():
         elif escolha == '6':
             consultar_disponiveis_emprestados()
         elif escolha == '0':
-            print("Saindo do sistema... Obrigado pelo serviço!")
+            print("Saindo do sistema...")
             break
         else:
-            print("Opção Inválida. Tente novamente.\n")
+            print("Opção inválida. Tente novamente.\n")
 
 # 3: Função para iniciar sistema da biblioteca
 if __name__ == '__main__':
@@ -153,4 +130,3 @@ if __name__ == '__main__':
 
 # Menu com laço de repetição feito
 # Anotação pra fazer um segundo commit e salvar ele com o menu funcionando além das funções
->>>>>>> f1acee7 (Segunda commit com o menu no código)
