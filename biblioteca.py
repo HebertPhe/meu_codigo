@@ -19,6 +19,7 @@ def adicionar_livro():
     }
     print(f"Livro '{titulo}' adicionado com ID {id_livro}.\n")
 
+
 # Remover Livro
 def remover_livro():
     listar_todos_livros()
@@ -28,6 +29,7 @@ def remover_livro():
         print("Livro removido com sucesso.\n")
     else:
         print("ID não encontrado.\n")
+
 
 # Listar todos os livros da biblioteca
 def listar_todos_livros():
@@ -104,6 +106,7 @@ def consultar_disponiveis_emprestados():
 #        print("0. Sair")
 #        escolha = input("Escolha uma opção: ")
 
+<<<<<<< HEAD
 #        if escolha == '1':
 #            adicionar_livro()
 #        elif escolha == '2':
@@ -125,3 +128,29 @@ def consultar_disponiveis_emprestados():
 # 3: Função para iniciar sistema da biblioteca
 #if __name__ == '__main__':
     menu()
+=======
+        if escolha == '1':
+            adicionar_livro()
+        elif escolha == '2':
+            remover_livro()
+        elif escolha == '3':
+            listar_todos_livros()
+        elif escolha == '4':
+            registrar_usuario()
+        elif escolha == '5':
+            registrar_emprestimo()
+        elif escolha == '6':
+            consultar_disponiveis_emprestados()
+        elif escolha == '0':
+            print("Saindo do sistema... Obrigado pelo serviço!")
+            break
+        else:
+            print("Opção Inválida. Tente novamente.\n")
+
+# 3: Função para iniciar sistema da biblioteca
+if __name__ == '__main__':
+    menu()
+
+# Menu com laço de repetição feito
+# Anotação pra fazer um segundo commit e salvar ele com o menu funcionando além das funções
+>>>>>>> f1acee7 (Segunda commit com o menu no código)
